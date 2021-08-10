@@ -27,6 +27,13 @@ def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
  
  repeat it recusrsively till all the elements are covered.
  
+ 
+ Time Complexity : O(n)
+ 
+ Recurrence relation:
+     
+     T(n) = 2T(n/2) + C
+
  '''
       
    
